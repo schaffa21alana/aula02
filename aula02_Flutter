@@ -1,0 +1,34 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  
+  runApp(MaterialApp(
+    
+    title: "Estrutura PRincipal Flutter",
+    home:Column(children: <Widget>[
+      
+      Text(
+        
+        'Flutter 2DS'
+        style:TextStyle(
+          frontSize: 50,
+          fontStyle: FrontStyle.italic,
+          fontWidget: FtontWeight.bold,
+          letterSpacing: 0,
+          wordSpacing: 0,
+          decoration: TextDecoration.nome
+          decorationColor: Colors.green,
+          color: Color.pink,
+          decorationStyle: TextDecorationStyle.solid,
+      
+          ).
+        ),
+      
+      ],),
+   
+  ));
+    
+}  
+
+
+ 
